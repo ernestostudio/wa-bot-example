@@ -1,0 +1,31 @@
+{
+  "name": "whatsapp-bot",
+  "version": "0.3.1",
+  "description": "WhatsApp Bot Dari Baileys",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "test": "nodemon index.js",
+    "start": "node index.js",
+    "2gb": "node --max-old-space-size=2048 index.js",
+    "4gb": "node --max-old-space-size=4069 index.js",
+  },
+  "repository": {
+    "type": "git",
+    "url": "null"
+  },
+  "keywords": [
+    "Baileys",
+    "WhatsApp",
+    "Nodejs"
+  ],
+  "author": "Ernestoyoofi",
+  "license": "MIT",
+  "dependencies": {
+    "@adiwajshing/baileys": "^4.4.0",
+    "@hapi/boom": "^10.0.0",
+    "nodemon": "^2.0.19",
+    "pino": "^8.4.2",
+    "qrcode-terminal": "^0.12.0"
+  }
+}
